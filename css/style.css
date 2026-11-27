@@ -262,3 +262,8 @@ body{line-height:1.9}
 .site-footer{background:#1d2087}
 .site-footer .f-brand img{border-radius:0}
 .event .thumb:not(.photo) img{max-height:146px}
+/* スクール情報：見出しの行間・ボタン */
+.school h3{line-height:1.4;align-items:flex-start}
+.school h3::before{flex-shrink:0;margin-top:.5em}
+.school-btn{margin-top:auto;display:block;text-align:center;text-decoration:none;font-weight:700;font-size:15px;color:#fff;background:var(--navy);padding:14px 16px;border-radius:6px;line-height:1.5}
+.school-btn:hover{opacity:.85}
