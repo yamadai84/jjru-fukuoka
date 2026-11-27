@@ -240,3 +240,12 @@ body{line-height:1.9}
 .slide-dots i{width:8px;height:8px;border-radius:50%;background:rgba(255,255,255,.45)}
 .slide-dots i.is-on{background:#fff}
 @media (max-width:700px){.slide-dots{right:16px;bottom:14px}}
+/* 2026-11 修正：ロゴ透過・サブラベル削除に合わせて */
+.sec-head .ja{margin-top:0}
+.brand span{font-size:15px}
+.site-footer .f-brand img{background:none!important;padding:0!important;width:72px}
+.about .mission img{background:none;padding:0;width:140px}
+.event .thumb{background:#fff;border-bottom:1px solid var(--line)}
+.event .thumb img{max-width:82%}
+@media (max-width:420px){.brand span{font-size:13px}}
+.event .thumb.photo img{max-width:100%}
