@@ -249,3 +249,10 @@ body{line-height:1.9}
 .event .thumb img{max-width:82%}
 @media (max-width:420px){.brand span{font-size:13px}}
 .event .thumb.photo img{max-width:100%}
+/* JJRUロゴは「透過」か「青背景」の2種のみ使用（レギュレーション） */
+:root{--navy:#1c2084}
+.about .mission{background:#1c2084}
+.about .mission img{width:150px;margin-left:-8px}
+.about .mission .q{font-size:22px}
+.site-footer .f-brand img{width:72px;border-radius:6px}
+.event .thumb{overflow:hidden}.event .thumb.photo{display:block}.event .thumb.photo img{width:100%;height:100%;max-height:none;object-fit:cover}
