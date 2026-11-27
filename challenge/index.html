@@ -17,7 +17,7 @@
 <style>
   .c-hero{padding:120px 0 70px;background:linear-gradient(180deg,#fff7e0,#fff);text-align:center}
   .c-hero img.logo{width:min(440px,80vw);margin:0 auto 18px}
-  .c-hero .year{font-family:var(--en);font-weight:800;font-size:22px;color:var(--orange);letter-spacing:.2em}
+  .c-hero .year{font-weight:700;font-size:clamp(20px,3vw,26px);color:var(--ink);margin-top:6px}
   .c-facts{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin:36px auto 30px;max-width:900px}
   .c-facts div{background:#fff;border:1px solid var(--line);border-radius:8px;padding:18px 12px}
   .c-facts small{display:block;font-size:12px;color:var(--muted);font-weight:700}
@@ -37,10 +37,8 @@
   .program li::before{content:"";position:absolute;left:-30px;top:7px;width:13px;height:13px;border-radius:50%;background:#fff;border:3px solid var(--orange)}
   .program time{font-family:var(--en);font-weight:800;color:var(--navy);margin-right:10px}
   .program span{display:block;font-size:14px;color:var(--muted);padding-left:56px}
-  .instructors{display:flex;gap:16px;flex-wrap:wrap}
-  .instructors div{flex:1;min-width:140px;background:var(--bg-soft);border-radius:14px;padding:18px;text-align:center}
-  .instructors b{font-family:var(--en);font-size:22px;display:block;color:var(--navy)}
-  .instructors small{font-size:12px;color:var(--muted)}
+  .instructors{list-style:disc;padding-left:1.4em;display:grid;gap:6px;font-size:16px}
+  .instructors li::marker{color:var(--orange)}
   .past{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}
   .past button{border:0;padding:0;border-radius:12px;overflow:hidden;aspect-ratio:4/3;cursor:zoom-in}
   .past img{width:100%;height:100%;object-fit:cover}
@@ -70,7 +68,7 @@
 <section class="c-hero">
   <div class="wrap">
     <img class="logo" src="../img/top/ddc-logo.png" alt="DOUBLE DUTCH CHALLENGE">
-    <div class="year">2026</div>
+    <h1 class="year">ダブルダッチチャレンジ in FUKUOKA 2026</h1>
     <div class="c-facts">
       <div><small>日にち</small><b>11/22（日）</b></div>
       <div><small>時間</small><b>13:00〜15:00</b></div>
@@ -141,11 +139,11 @@
 <section>
   <div class="wrap">
     <div class="sec-head reveal"><div class="ja">インストラクター</div></div>
-    <div class="instructors reveal">
-      <div><b>MY</b><small>JJRU 福岡県支部</small></div>
-      <div><b>SHIHO</b><small>JJRU 福岡県支部</small></div>
-      <div><b>ASAKO</b><small>JJRU 福岡県支部</small></div>
-    </div>
+    <ul class="instructors reveal">
+      <li>MY（JJRU 福岡県支部）</li>
+      <li>SHIHO（JJRU 福岡県支部）</li>
+      <li>ASAKO（JJRU 福岡県支部）</li>
+    </ul>
     <div class="c-card reveal" style="margin-top:36px">
       <h3>注意事項</h3>
       <p><b>【感染症対策について】</b><br>体調のすぐれない方、発熱や風邪症状のある方は参加をご遠慮いただきますようお願いいたします。</p>

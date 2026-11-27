@@ -150,3 +150,13 @@ dialog .m-head{background:var(--acc)}
 @media (max-width:700px){.photo-row{grid-template-columns:1fr 1fr}.photo-row img:first-child{grid-column:span 2}}
 .split img{border-radius:4px}
 .quick b{font-family:var(--ja);font-size:17px}
+/* 2026-11-28 修正 */
+.f-hero .title,.f-hero .date{font-family:'Jost','Helvetica Neue',Arial,sans-serif}
+.f-hero .title{font-weight:600;letter-spacing:.22em;color:var(--ink)}
+.f-hero .date{font-weight:600;letter-spacing:.02em}
+.f-hero .date small{letter-spacing:.12em}
+.lead-text{max-width:none}
+.division .d .logo-box{aspect-ratio:3/1;padding:18px 24px}
+.division .d .logo-box img{max-width:62%;max-height:100%}
+.division .d .logo-box{aspect-ratio:auto;height:110px}.division .d .logo-box img{max-height:74px;width:auto}
+.division .d .logo-box img[src*="choryumon"]{max-height:96px}
