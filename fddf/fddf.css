@@ -161,3 +161,5 @@ dialog .m-head{background:var(--acc)}
 .division .d .logo-box{aspect-ratio:auto;height:110px}.division .d .logo-box img{max-height:74px;width:auto}
 .division .d .logo-box img[src*="choryumon"]{max-height:96px}
 .fddf .site-footer{background:#1d2087}
+
+.cast-img{width:100%;max-width:min(760px,100%);height:auto}
