@@ -267,3 +267,9 @@ body{line-height:1.9}
 .school h3::before{flex-shrink:0;margin-top:.5em}
 .school-btn{margin-top:auto;display:block;text-align:center;text-decoration:none;font-weight:700;font-size:15px;color:#fff;background:var(--navy);padding:14px 16px;border-radius:6px;line-height:1.5}
 .school-btn:hover{opacity:.85}
+
+/* リンクカード：インスタアイコン／JJRUロゴ、2枚並び */
+.link-cards{grid-template-columns:repeat(2,1fr)}
+.link-card .lc-icon{width:56px;height:32px;flex-shrink:0;color:#d62976}
+.link-card .lc-logo{width:56px;height:auto;flex-shrink:0}
+@media (max-width:800px){.link-cards{grid-template-columns:1fr}}
